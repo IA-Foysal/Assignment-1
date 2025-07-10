@@ -1,0 +1,27 @@
+/* extra color */
+.btn-color{
+
+    color: #fff;
+    background-color:#4E47FF ;
+    border-radius: 10px;
+    border: none;
+    width: 120px;
+    height: 48px;
+}
+.text-color{
+   color: #4E47FF;
+}
+
+/*  */
+.header{
+    background-image:url(../Assets/Hero-bg.png);
+}
+.uper-head{
+    display: flex;
+    justify-content: space-between;
+    margin:0 80px ;
+    align-items: center;
+}
+.down-head{
+   justify-content: center;
+}
