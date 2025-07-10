@@ -1,3 +1,10 @@
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
 /* extra color */
 .btn-color{
 
@@ -5,23 +12,38 @@
     background-color:#4E47FF ;
     border-radius: 10px;
     border: none;
-    width: 120px;
+    width: 132px;
     height: 48px;
 }
 .text-color{
    color: #4E47FF;
+   font-family: 'Poppins', sans-serif;
+
 }
 
 /*  */
 .header{
     background-image:url(../Assets/Hero-bg.png);
+
 }
 .uper-head{
+  
     display: flex;
     justify-content: space-between;
-    margin:0 80px ;
+    margin:0 100px ;
     align-items: center;
+    
 }
 .down-head{
-   justify-content: center;
+    margin-top: 50px;
+    padding: 150px;
+   font-size: 3rem;
+   text-align: center;
+}
+
+
+.img-a img{
+    width: 200px;
+    height: 160px;
+    border-radius: 20px;
 }
