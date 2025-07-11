@@ -4,7 +4,10 @@
     padding: 0%;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
-    color: rgb(65, 53, 53);
+    
+}
+body{
+    background-color: #c7e6cf;
 }
 
 /* extra color */
@@ -19,11 +22,12 @@
 }
 .text-color{
    color: #4E47FF;
+   font-size:2rem;
    
 
 }
 
-/*  */
+/* main divs*/
 .header{
     background-image:url(../Assets/Hero-bg.png);
 
@@ -63,7 +67,7 @@
     margin: 70px;
     border-radius: 15px;
     height: 160px;
-    padding: 20px;
+    padding: 30px;
     
 }
     
@@ -71,5 +75,64 @@
     display: flex;
 }
 .s-ab .s-ab-sub{
-    margin: 20px;   
+    margin: 20px; 
+    text-align: center;  
+}
+.s-bp{
+    font-size: .7rem;
+}
+.s-c{
+    background-color: antiquewhite;
+    align-items: center;
+   padding: 30px;
+   width: 1140px;
+   height: 696;
+   margin: 50px auto;
+   border-radius: 5px;
+}
+.s-c-a{
+    text-align: center;
+    padding: 20px;
+    margin: 20px;
+}
+.img{
+    display: flex;
+    justify-content: center;
+    
+}
+.img img{
+    width: 840px;
+    height:364px;
+    border-radius: 50px;
+}
+.log-in{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+caption{
+    width: 50%;
+}
+.input label{
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    
+}
+.input input{
+    width: 500px;
+    padding: 12px;
+    border: 1px solid #ffff;
+    border-radius: 5px;
+    font-size: 15px;
+    height: 60px;
+    margin-bottom: 5px;
+}
+.input textarea{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ffff;
+    border-radius: 5px;
+    font-size: 15px;
+    min-height: 100px;
 }
