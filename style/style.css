@@ -7,7 +7,7 @@
     
 }
 body{
-    background-color: #c7e6cf;
+    background-color: #d8dcff;
 }
 
 /* extra color */
@@ -21,10 +21,12 @@ body{
     height: 40px;
 }
 .text-color{
-   color: #4E47FF;
-   font-size:2rem;
-   
-
+    color: #4E47FF;
+    font-size:2rem;
+}
+.btn-color:hover{
+    background-color: rgb(40, 134, 218);
+    border-radius: 6px;
 }
 
 /* main divs*/
@@ -32,8 +34,7 @@ body{
     background-image:url(../Assets/Hero-bg.png);
 
 }
-.uper-head{
-  
+.uper-head{ 
     display: flex;
     justify-content: space-between;
     margin:0 100px ;
@@ -43,8 +44,8 @@ body{
 .down-head{
     margin-top: 50px;
     padding: 150px;
-   font-size: 3rem;
-   text-align: center;
+    font-size: 3rem;
+    text-align: center;
 }
 
 
@@ -84,12 +85,12 @@ body{
 .s-c{
     background-color: antiquewhite;
     align-items: center;
-   padding: 30px;
-   width: 1140px;
-   height: 696;
-   margin: 50px auto;
-   border-radius: 5px;
-}
+    padding: 30px;
+    width: 1140px;
+    height: 696;
+    margin: 50px auto;
+    border-radius: 5px;
+    }
 .s-c-a{
     text-align: center;
     padding: 20px;
@@ -152,4 +153,34 @@ ul li a{
     font-size: smaller;
     color:  rgb(150, 132, 132);
     padding: 20px;
+}
+.reviews{
+    background-color: rgb(241, 243, 242);
+    width: 200px;
+    height: 250px;
+    border-radius: 10px;
+    margin: 10px;
+    
+    
+}
+.super{
+    display: flex;
+    margin-top: 18px;
+    width: 100%;
+    justify-content: center;
+    
+}
+.abc{
+    text-align: center;
+    font-size: 3rem;
+}
+.reviewer{
+    display: flex;
+}
+.reviews p{
+    font-size: smaller;
+}
+.reviews-img img{
+    padding: 9px;
+    border-radius: 50px;
 }
